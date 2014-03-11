@@ -14,8 +14,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *myAnswer;
 @property (weak, nonatomic) IBOutlet UILabel *myMultiplier;
 
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
 
 
 - (IBAction)onCalculateButtonPressed:(id)sender;
+- (IBAction)sliderButton:(id)sender;
 
 @end

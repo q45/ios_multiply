@@ -19,7 +19,10 @@
     [super viewDidLoad];
     
     self.myMultiplier.text = @"10";
-    self.myNumber = _myNumber;
+    self.mySlider.minimumValue = 0;
+    self.mySlider.maximumValue = 100;
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -44,6 +47,17 @@
     
     self.myAnswer.text = [NSString stringWithFormat:@"%d", result];
     NSLog(@"%d", result);
+}
+
+- (IBAction)sliderButton:(id)sender {
+    UISlider *slider = (UISlider *)sender;
+    
+    int sliderValue = slider.value;
+    
+    self.myNumber.text = [NSString stringWithFormat:@"%i", sliderValue];
+    NSLog(@"%i", sliderValue);
+    self.myNumber.text = [NSString stringWithFormat:@"%i", sliderValue];
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
