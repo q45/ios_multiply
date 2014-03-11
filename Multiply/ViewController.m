@@ -42,7 +42,7 @@
     int result = number * multiplier;
     
     if (result > 20) {
-        self.view.backgroundColor = [UIColor greenColor];
+        self.view.backgroundColor = [UIColor colorWithRed:75/255.0f green:188/255.0f blue:90/255.0f alpha:1.0f];
     }
     
     self.myAnswer.text = [NSString stringWithFormat:@"%d", result];

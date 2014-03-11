@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CheckMate/CheckMate.h>
+//#import <CheckMate/CheckMate.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -12,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [CheckMate initializeFramework:@"d8d47d8892c10fd8ba0372f966c7dc16"];
+    //[CheckMate initializeFramework:@"d8d47d8892c10fd8ba0372f966c7dc16"];
     return YES;
 }
 							
